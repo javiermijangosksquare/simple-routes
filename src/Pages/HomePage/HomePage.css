@@ -1,0 +1,10 @@
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 40px);
+}
+
+img {
+  box-shadow: 0px 5px 5px #888888;
+}

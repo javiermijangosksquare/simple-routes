@@ -1,0 +1,12 @@
+.listContainer {
+  width: 50%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.mainListContainer {
+  display: flex;
+  justify-content: center;
+  height: calc(100vh - 32px);
+  padding-top: 32px;
+}
