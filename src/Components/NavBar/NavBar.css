@@ -1,0 +1,39 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 32px;
+}
+
+li {
+  height: 32px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 0px 10px 0px 10px;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+li:hover:not(.active) {
+  background-color: #111;
+}
+
+.container {
+  height: 64px;
+}
+
+.active {
+  background-color: #c23a46;
+}
