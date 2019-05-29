@@ -10,3 +10,18 @@
   height: calc(100vh - 32px);
   padding-top: 32px;
 }
+
+.button {
+  background-color: #c23a46;
+  border: 0px solid black;
+  height: 25px;
+  margin: 5px 0px;
+  box-shadow: 1px 1px 3px grey;
+  align-self: flex-end;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.button:hover {
+  background-color: #6e0b14;
+}

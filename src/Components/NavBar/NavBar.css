@@ -1,3 +1,10 @@
+span {
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  color: white;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
